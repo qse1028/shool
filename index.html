@@ -30,13 +30,19 @@
     opacity: 0.4;   /* 透明度（重點！） */
     z-index: -1;
     }
-    .card{
-        background: white;
-        padding: 40px;
-        border-radius: 16px;
-        box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-        text-align: center;
-    }
+    .card {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.16);
+}
 
     h1{
         margin-bottom: 20px;
