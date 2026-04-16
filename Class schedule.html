@@ -5,6 +5,28 @@
 <title>114學年度第2學期課表</title>
 
 <style>
+/* 按鈕 */
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #a5d6a7;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: 0.2s ease;
+}
+
+.btn:hover{
+    background: #81c784;
+    transform: translateY(-2px);
+}
+.btn-box{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
     body{
     font-family: "Hiragino Kaku Gothic ProN","Microsoft JhengHei",sans-serif;
     margin: 0;
@@ -111,7 +133,6 @@ body::before{
 </head>
 
 <body>
-
 <div class="container">
 
 <h2>課表</h2>
@@ -266,7 +287,9 @@ body::before{
 </tr>
 
 </table>
-
+<div class="btn-box">
+    <a href="index.html" class="btn">回首頁</a>
+</div>
 </div>
 
 </body>
